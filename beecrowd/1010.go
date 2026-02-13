@@ -8,7 +8,7 @@ type Peca struct{
 	ID 			int
 	Quantidade 	int
 	Preco 		float64
-
+//----------------------------------------//
 	ID2 		int
 	Quantidade2 int
 	Preco2 		float64
@@ -27,8 +27,9 @@ func (p Peca) TotalPreco2() float64{
 }
 
 
-//execultavel
+//executavel
 //para executar no main adicionar:  var peca beecrowd.Peca
+//pois no main, não pode receber parametros
 func Imprimir(p Peca ) {
     fmt.Scan(&p.ID, &p.Quantidade, &p.Preco)
     fmt.Scan(&p.ID2, &p.Quantidade2, &p.Preco2)
