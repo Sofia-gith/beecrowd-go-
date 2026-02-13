@@ -8,5 +8,5 @@ import (
 )
 
 func main() {
-    beecrowd.AreaCircle()
+    beecrowd.Diferenca()
 }
