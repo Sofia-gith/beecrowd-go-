@@ -1,19 +1,31 @@
 package beecrowd
 
 import (
-	"fmt"
+	"fmt"	
 )
+func BasicExtreme(){
 
-type BasicExtreme struct {
+	var A, B, X int
+		 fmt.Scan( &A, &B)
+		 X	= A+B
+	 	fmt.Println("X =",X)
+}
+
+//Segunda forma de fazer: 
+
+type Extreme struct {
     A int
     B int
 }
 
+func (e Extreme) Soma() int {
+    return e.A + e.B
+}
 
-func basicExtreme(){
+func BasicExtreme2() {
+    var e Extreme
 
-	var basicExtreme BasicExtreme
-	fmt.Scanf("%d %d", &basicExtreme.A, &basicExtreme.B)
-	fmt.Println(basicExtreme.A + basicExtreme.B)
+    fmt.Scan(&e.A, &e.B)
 
+    fmt.Println("X =", e.Soma())
 }
