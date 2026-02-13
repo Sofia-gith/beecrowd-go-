@@ -11,6 +11,8 @@ type Not struct{
 	D int
 }
 
+
+//executavel
 func Diferenca(){
 	var not Not
 	fmt.Scan(&not.A, &not.B, &not.C, &not.D)

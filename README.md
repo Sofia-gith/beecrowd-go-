@@ -1,4 +1,4 @@
 # beecrowd
 
-- Meus codigos para serem aceitos no beecrowd utilizando Golang
+- Meus codigos que foram aceitos no beecrowd utilizando Golang
 - Treinando Go
