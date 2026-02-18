@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	var bee beecrowd.Omaior
-	bee.ImprimirOmaior()
+	var bee beecrowd.Consumo
+	bee.ImprimirConsumo()
 
 }
