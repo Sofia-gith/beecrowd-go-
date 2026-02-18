@@ -23,6 +23,6 @@ func (e *Esfera) CalculoVolume(){
 func (e *Esfera) ExecCalculoVolume(){
 	fmt.Scan(&e.Raio)
 	e.CalculoVolume()
-	fmt.Printf("VOLUME = %.3f\n", e.Volume, "Resultado final")
+	fmt.Printf("VOLUME = %.3f\n", e.Volume)
 
 }
