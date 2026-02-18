@@ -2,7 +2,9 @@ package main
 
 
 import (
-    "github.com/Sofia-gith/beecrowd-go-/beecrowd"
+
+
+	"github.com/Sofia-gith/beecrowd-go-/beecrowd"
 )
 
 
@@ -11,5 +13,7 @@ import (
 
 func main() {
 
-    beecrowd.Teste()
+	var bee beecrowd.Metricas
+	bee.ExecMetricas()
+
 }
