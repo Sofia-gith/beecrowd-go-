@@ -11,10 +11,11 @@ type Carros struct{
 	km int
 }
 
+//Executavel
 func (c *Carros) CalculoDistancia(){
 	fmt.Scan(&c.km)
 	c.min = c.km * 2
-	fmt.Println(c.min, " minutos")
+	fmt.Println(c.min, "minutos")
 }
 
 
