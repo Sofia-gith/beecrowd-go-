@@ -9,7 +9,7 @@ type Consumo struct {
     Y float64 	// combustível gasto
 }
 
-func (c Consumo) ConsumoMedio() float64 {
+func (c *Consumo) ConsumoMedio() float64 {
     return float64(c.X) / c.Y
 }
 func (c *Consumo) ImprimirConsumo() {
