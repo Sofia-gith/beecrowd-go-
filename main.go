@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	var bee beecrowd.Tempo
-	bee.ImprimirTempo()	
+	var bee beecrowd.Cedulas
+	bee.ImprimirCedulas()	
 
 }
