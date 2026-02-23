@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	var bee beecrowd.Idade
-	bee.ImprimirIdade()	
+	var bee beecrowd.Note	
+	bee.ImprimirNota()														
 
 }
