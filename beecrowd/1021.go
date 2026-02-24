@@ -2,6 +2,8 @@ package beecrowd
 
 import "fmt"
 
+// Notas e moedas
+
 type Note struct {
     Value int
 }

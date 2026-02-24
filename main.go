@@ -13,7 +13,7 @@ import (
 
 func main() {
 
-	var bee beecrowd.Note	
-	bee.ImprimirNota()														
+	var bee beecrowd.Racional		
+	bee.ImprimirRacionais()														
 
 }
