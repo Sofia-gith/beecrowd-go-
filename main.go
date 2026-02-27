@@ -16,7 +16,7 @@ func main() {
 	// var bee beecrowd.Racional		
 	// bee.ImprimirRacionais()				
 	
-	var c beecrowd.Cidade
-	beecrowd.Cidades(&c)
+	// var c beecrowd.Cidade
+	beecrowd.Criptografia()
 
 }
