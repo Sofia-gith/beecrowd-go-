@@ -7,6 +7,9 @@ import (
 	"unicode"
 )
 
+// Criptografia
+//Feito com auxilio de IA
+
 func Criptografia() {
 	reader := bufio.NewReader(os.Stdin)
 	writer := bufio.NewWriter(os.Stdout)
