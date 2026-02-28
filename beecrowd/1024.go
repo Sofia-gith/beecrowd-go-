@@ -41,7 +41,7 @@ func Criptografia() {
 			runes[l], runes[r] = runes[r], runes[l]
 		}
 
-	
+
 		mid := len(runes) / 2
 		for j := mid; j < len(runes); j++ {
 			runes[j] = runes[j] - 1

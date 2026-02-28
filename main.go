@@ -13,10 +13,10 @@ import (
 
 func main() {
 
-	// var bee beecrowd.Racional		
-	// bee.ImprimirRacionais()				
-	
+	// var bee beecrowd.Racional
+	// bee.ImprimirRacionais()
+
 	// var c beecrowd.Cidade
-	beecrowd.Criptografia()
+	beecrowd.Lanche()
 
 }
