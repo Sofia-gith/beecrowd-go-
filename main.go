@@ -17,6 +17,6 @@ func main() {
 	// bee.ImprimirRacionais()
 
 	// var c beecrowd.Cidade
-	beecrowd.Intervalo2()
+	beecrowd.TesteSelecao1()
 
 }
