@@ -4,4 +4,3 @@
 
 
 ## not started
-- 1043 - Triângulo | level 2
