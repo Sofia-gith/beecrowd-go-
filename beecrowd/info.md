@@ -4,3 +4,8 @@
 
 
 ## not started
+
+
+## multiple resolutions
+
+- 1046 - Jogo do Tempo | level 2
