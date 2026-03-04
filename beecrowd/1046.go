@@ -19,7 +19,7 @@ func TempoJogoModular(){
 	fmt.Printf("O JOGO DUROU %d HORA(S)\n", duracao)
 }
 
-//outro meio de resolução bem mais elegante(não foi resolvido por mim)
+//outro meio de resolução bem mais elegante
 func Outro() {
 	var inicio, fim int
 	fmt.Scan(&inicio, &fim)
