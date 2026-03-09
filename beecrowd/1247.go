@@ -4,10 +4,8 @@ import (
 	"fmt"
 
 )
-
 //Perseguição em  uma linha perpendicular
 // Codigo feito com auxilio de IA
-
 
 func QuardaCosteira(){
 	  var d, vf, vg int
