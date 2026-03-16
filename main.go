@@ -4,7 +4,8 @@ package main
 import (
 
 
-	"github.com/Sofia-gith/beecrowd-go-/beecrowd"
+	 "github.com/Sofia-gith/beecrowd-go-/beecrowd"
+	// "github.com/Sofia-gith/beecrowd-go-/aprendendo"
 )
 
 
@@ -17,6 +18,6 @@ func main() {
 	// bee.ImprimirRacionais()
 
 	// var c beecrowd.Cidade
-	beecrowd.NumeroSolitario()
+	beecrowd.Josephus()
 
 }

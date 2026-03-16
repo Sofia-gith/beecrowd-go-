@@ -51,6 +51,7 @@ func NumeroSolitario2() {
 			resultado ^= num
 		}
 
+		
 		fmt.Println(resultado)
 	}
 }
