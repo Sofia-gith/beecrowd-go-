@@ -22,7 +22,7 @@ func ListaCircularJosephus(){
 
 	dedo = head
 	for dedo.prox != dedo{ 
-		//condição implica que ira continuar no loop até ter domente 1 elemento
+		//condição implica que ira continuar no loop até ter somente 1 elemento
 		for i := 0; i<k-2; i++{
 			dedo = dedo.prox
 		}

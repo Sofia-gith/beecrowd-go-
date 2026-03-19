@@ -18,6 +18,6 @@ func main() {
 	// bee.ImprimirRacionais()
 
 	// var c beecrowd.Cidade
-	beecrowd.Josephus()
+	beecrowd.Rinocerontes()
 
 }
