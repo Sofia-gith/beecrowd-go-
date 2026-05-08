@@ -4,6 +4,7 @@ import "fmt"
 
 type Circular struct {
 	valor int
+	
 	prox  *Circular
 	ant   *Circular
 }
