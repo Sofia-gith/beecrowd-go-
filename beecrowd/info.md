@@ -10,6 +10,7 @@
 
 - 1046 - Jogo do Tempo | level 2
 - 2091 - numero solitario | level 5
+- 1259 - Pares e Impares | level 3
 
 
 ## circular list

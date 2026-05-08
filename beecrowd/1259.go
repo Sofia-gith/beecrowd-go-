@@ -6,6 +6,9 @@ import (
 )
 
 func PareseImpares1259(){
+
+	// Função desenvolvida por mim
+
 	var EntradaInicial  int
 	var List int
 	var Pares []int
@@ -35,4 +38,49 @@ func PareseImpares1259(){
 		fmt.Println(Impares[i])
 	}
 
+}
+
+
+func PareseImpares1259Melhorado(){
+
+	// Função mais eficiente
+
+	var n int
+	var numero int
+
+	var numeros []int
+
+	fmt.Scan(&n)
+
+	for i := 0; i < n; i++ {
+
+		fmt.Scan(&numero)
+
+		numeros = append(numeros, numero)
+	}
+
+	sort.Slice(numeros, func(i, j int) bool {
+
+		// Se o primeiro for par e o segundo ímpar
+		if numeros[i]%2 == 0 && numeros[j]%2 != 0 {
+			return true
+		}
+
+		// Se o primeiro for ímpar e o segundo par
+		if numeros[i]%2 != 0 && numeros[j]%2 == 0 {
+			return false
+		}
+
+		// Se ambos forem pares -> crescente
+		if numeros[i]%2 == 0 {
+			return numeros[i] < numeros[j]
+		}
+
+		// Se ambos forem ímpares -> decrescente
+		return numeros[i] > numeros[j]
+	})
+
+	for _, valor := range numeros {
+		fmt.Println(valor)
+	}
 }
