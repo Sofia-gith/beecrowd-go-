@@ -3,6 +3,7 @@ package LeetCode
 import(
 
 )
+// Complexidade: O(n²)
 
 func twoSum(nums []int, target int) []int {
     for i := 0; i < len(nums); i++ {
@@ -17,6 +18,8 @@ func twoSum(nums []int, target int) []int {
 
 
 // Melhor solução
+// Utilizando um HashMap
+// Complexidade: O(n)
 
 func twoSumHashMap(nums []int, target int) []int {
     seen := make(map[int]int) // valor -> índice
